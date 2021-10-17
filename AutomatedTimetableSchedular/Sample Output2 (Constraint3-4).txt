@@ -1,0 +1,313 @@
+run:
+********* Welcome to Automated TimeTable Application  ***********
+
+** This application is developed based on Constraint Programming and Genetic Algorithm  **
+
+***** Population Size = 3:  *****
+
+***** Timetable 1 Generation *****
+
+The Available Class meetings: [ICS 310, LIS 208, LIS 106, ICS 418, TCS 408, CSC 326, LIS 102, ICS 312, CSC 322, TCS 316, LIS 304, CSC 320, TCS 318, MAC 236, LIS 302, TCS 312, TCS 314, TCS 204, TCS 202, MAC 432, CSC 422, CSC 216, GNS 112, CSC 420, CSC 214, LIS 308, CSC 426, CSC 212, TCS 102, TCS 414, ICS 412, CSC 424, LIS 202, ICS 410, LIS 204, TCS 418, LIS 206, CSC 318, ICS 202, ICS 408, ICS 204, CSC 314, ICS 404, CSC 316, CSC 112, ICS 302, ICS 406, MAC 224, LIS 408, TCS 306, MAC 222, LIS 406, TCS 304, TCS 340, TCS 302, MAC 426, LIS 404, MAC 424, LIS 402, ICS 304, CSC 222, MAC 428, TCS 402, ICS 306, ICS 402, CSC 224, MAC 324, TCS 404, ICS 308, MAC 322, CSC 220, TCS 212, MAC 112, MAC 114, POS 116, ICS 106, ICS 104, ICS 102, MAC 310, MAC 312, MAC 220, MAC 316, MAC 204, MAC 202, MAC 406, MAC 104, MAC 402, MAC 108, MAC 404, GNS 212, MAC 306, ICS 422, CSC 434, MAC 304]
+
+The Total number of Class meetings: 94
+
+******* The initial TimeTable for Rain Semester ************ 
+******* Monday:
+8.00am - 9.00am:  [ICS 404, TCS 312, CSC 420, ICS 312, TCS 408] 
+9.00am - 10.00am:  [ICS 404, TCS 312, CSC 420, ICS 312, TCS 408] 
+10.00am - 11.00am:  [MAC 204, CSC 212, MAC 432, CSC 326, TCS 314] 
+11.00am - 12.00pm:  [MAC 204, CSC 212, MAC 432, CSC 326, TCS 314] 
+12.00pm - 1.00pm:  [MAC 220, ICS 102, TCS 306, LIS 402, CSC 320] 
+1.00pm - 2.00pm:  [MAC 220, ICS 102, TCS 306, LIS 402, CSC 320] 
+2.00pm - 3.00pm:  [MAC 310, LIS 106, MAC 108, LIS 404, ICS 418] 
+3.00pm - 4.00pm:  [MAC 310, LIS 106, MAC 108, LIS 404, ICS 418] 
+4.00pm - 5.00pm:  [ICS 422, LIS 206, ICS 402, MAC 406, MAC 404] 
+5.00pm - 6.00pm:  [ICS 422, LIS 206, ICS 402, MAC 406, MAC 404] 
+******* Tuesday:
+8.00am - 9.00am:  [CSC 422, CSC 224, CSC 112, LIS 304, CSC 216] 
+9.00am - 10.00am:  [CSC 422, CSC 224, CSC 112, LIS 304, CSC 216] 
+10.00am - 11.00am:  [MAC 304, POS 116, CSC 318, MAC 312] 
+11.00am - 12.00pm:  [MAC 304, POS 116, CSC 318, MAC 312] 
+12.00pm - 1.00pm:  [ICS 412, GNS 212, ICS 310, LIS 202] 
+1.00pm - 2.00pm:  [ICS 412, GNS 212, ICS 310, LIS 202] 
+2.00pm - 3.00pm:  [CSC 214, TCS 212, MAC 324, CSC 426] 
+3.00pm - 4.00pm:  [CSC 214, TCS 212, MAC 324, CSC 426] 
+4.00pm - 5.00pm:  [MAC 402, ICS 202, MAC 224, TCS 418] 
+5.00pm - 6.00pm:  [MAC 402, ICS 202, MAC 224, TCS 418] 
+******* Wednesday:
+8.00am - 9.00am:  [CSC 322, LIS 308, LIS 102, TCS 204] 
+9.00am - 10.00am:  [CSC 322, LIS 308, LIS 102, TCS 204] 
+10.00am - 11.00am:  [MAC 316, MAC 236, MAC 424, LIS 204] 
+11.00am - 12.00pm:  [MAC 316, MAC 236, MAC 424, LIS 204] 
+12.00pm - 1.00pm:  [ICS 104, MAC 322, TCS 302, MAC 428] 
+1.00pm - 2.00pm:  [ICS 104, MAC 322, TCS 302, MAC 428] 
+2.00pm - 3.00pm:  [TCS 318, MAC 104, TCS 414, ICS 302] 
+3.00pm - 4.00pm:  [TCS 318, MAC 104, TCS 414, ICS 302] 
+4.00pm - 5.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+5.00pm - 6.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+******* Thursday:
+8.00am - 9.00am:  [LIS 406, ICS 406, MAC 426, TCS 402] 
+9.00am - 10.00am:  [LIS 406, ICS 406, MAC 426, TCS 402] 
+10.00am - 11.00am:  [MAC 114, ICS 106, ICS 410, MAC 112] 
+11.00am - 12.00pm:  [MAC 114, ICS 106, ICS 410, MAC 112] 
+12.00pm - 1.00pm:  [ICS 204, TCS 102, TCS 404, CSC 222] 
+1.00pm - 2.00pm:  [ICS 204, TCS 102, TCS 404, CSC 222] 
+2.00pm - 3.00pm:  [TCS 316, TCS 304, GNS 112, CSC 314] 
+3.00pm - 4.00pm:  [TCS 316, TCS 304, GNS 112, CSC 314] 
+4.00pm - 5.00pm:  [ICS 306, LIS 302, CSC 316, TCS 340] 
+5.00pm - 6.00pm:  [ICS 306, LIS 302, CSC 316, TCS 340] 
+******* Friday:
+8.00am - 9.00am:  [CSC 424, MAC 306, CSC 220, ICS 304] 
+9.00am - 10.00am:  [CSC 424, MAC 306, CSC 220, ICS 304] 
+10.00am - 11.00am:  [ICS 308, LIS 208, LIS 408, MAC 202] 
+11.00am - 12.00pm:  [ICS 308, LIS 208, LIS 408, MAC 202] 
+12.00pm - 1.00pm:  [, , , , ] 
+1.00pm - 2.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+2.00pm - 3.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+3.00pm - 4.00pm:  [, , , , ] 
+4.00pm - 5.00pm:  [MAC 222, TCS 202, ICS 408, CSC 434] 
+5.00pm - 6.00pm:  [MAC 222, TCS 202, ICS 408, CSC 434] 
+
+******* The New TimeTable for Rain Semester after evaluation ************ 
+******* Monday:
+8.00am - 9.00am:  [ICS 304, ICS 410, TCS 314, MAC 108, MAC 316, MAC 224, MAC 406, CSC 214, CSC 318] 
+9.00am - 10.00am:  [ICS 304, ICS 410, TCS 314, MAC 108, MAC 316, MAC 224, MAC 406, CSC 214, CSC 318] 
+10.00am - 11.00am:  [CSC 326, TCS 302, MAC 104, MAC 322, MAC 404, MAC 236, CSC 216, ICS 402, LIS 404] 
+11.00am - 12.00pm:  [CSC 326, TCS 302, MAC 104, MAC 322, MAC 404, MAC 236, CSC 216, ICS 402, LIS 404] 
+12.00pm - 1.00pm:  [ICS 418, ICS 310, ICS 104, LIS 408, LIS 302, LIS 208, TCS 212, TCS 316, TCS 414] 
+1.00pm - 2.00pm:  [ICS 418, ICS 310, ICS 104, LIS 408, LIS 302, LIS 208, TCS 212, TCS 316, TCS 414] 
+2.00pm - 3.00pm:  [MAC 426, TCS 340, TCS 404, MAC 222, ICS 312, ICS 408, LIS 202, ICS 102, LIS 402] 
+3.00pm - 4.00pm:  [MAC 426, TCS 340, TCS 404, MAC 222, ICS 312, ICS 408, LIS 202, ICS 102, LIS 402] 
+4.00pm - 5.00pm:  [ICS 422] 
+5.00pm - 6.00pm:  [ICS 422] 
+******* Tuesday:
+8.00am - 9.00am:  [CSC 422, LIS 204, LIS 102, TCS 102, MAC 306, CSC 212, CSC 320, MAC 432, ICS 302] 
+9.00am - 10.00am:  [CSC 422, LIS 204, LIS 102, TCS 102, MAC 306, CSC 212, CSC 320, MAC 432, ICS 302] 
+10.00am - 11.00am:  [CSC 112, ICS 406, ICS 306, TCS 312, TCS 418, MAC 424, TCS 204, MAC 310, MAC 220] 
+11.00am - 12.00pm:  [CSC 112, ICS 406, ICS 306, TCS 312, TCS 418, MAC 424, TCS 204, MAC 310, MAC 220] 
+12.00pm - 1.00pm:  [GNS 212, ICS 404, LIS 304, TCS 318, TCS 408, MAC 312, MAC 402, CSC 224, ICS 308] 
+1.00pm - 2.00pm:  [GNS 212, ICS 404, LIS 304, TCS 318, TCS 408, MAC 312, MAC 402, CSC 224, ICS 308] 
+2.00pm - 3.00pm:  [ICS 204, ICS 106] 
+3.00pm - 4.00pm:  [ICS 204, ICS 106] 
+4.00pm - 5.00pm:  [CSC 426, ICS 412, ICS 202, TCS 306, TCS 402, MAC 324, MAC 428, CSC 220, MAC 204] 
+5.00pm - 6.00pm:  [CSC 426, ICS 412, ICS 202, TCS 306, TCS 402, MAC 324, MAC 428, CSC 220, MAC 204] 
+******* Wednesday:
+8.00am - 9.00am:  [CSC 420, LIS 308, LIS 406, LIS 206, LIS 106, TCS 202, POS 116] 
+9.00am - 10.00am:  [CSC 420, LIS 308, LIS 406, LIS 206, LIS 106, TCS 202, POS 116] 
+10.00am - 11.00am:  [CSC 322, TCS 304, MAC 112, MAC 304] 
+11.00am - 12.00pm:  [CSC 322, TCS 304, MAC 112, MAC 304] 
+12.00pm - 1.00pm:  [CSC 314] 
+1.00pm - 2.00pm:  [CSC 314] 
+2.00pm - 3.00pm:  [] 
+3.00pm - 4.00pm:  [] 
+4.00pm - 5.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+5.00pm - 6.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+******* Thursday:
+8.00am - 9.00am:  [] 
+9.00am - 10.00am:  [] 
+10.00am - 11.00am:  [MAC 114] 
+11.00am - 12.00pm:  [MAC 114] 
+12.00pm - 1.00pm:  [CSC 222] 
+1.00pm - 2.00pm:  [CSC 222] 
+2.00pm - 3.00pm:  [GNS 112] 
+3.00pm - 4.00pm:  [GNS 112] 
+4.00pm - 5.00pm:  [CSC 316] 
+5.00pm - 6.00pm:  [CSC 316] 
+******* Friday:
+8.00am - 9.00am:  [CSC 424] 
+9.00am - 10.00am:  [CSC 424] 
+10.00am - 11.00am:  [MAC 202] 
+11.00am - 12.00pm:  [MAC 202] 
+12.00pm - 1.00pm:  [, , , , ] 
+1.00pm - 2.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+2.00pm - 3.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+3.00pm - 4.00pm:  [, , , , ] 
+4.00pm - 5.00pm:  [CSC 434] 
+5.00pm - 6.00pm:  [CSC 434] 
+***** The cost for Timetable 1: 5610
+
+
+***** Timetable 2 Generation *****
+
+
+******* The New TimeTable for Rain Semester after evaluation ************ 
+******* Monday:
+8.00am - 9.00am:  [GNS 212, ICS 406, ICS 310, LIS 404, LIS 304, TCS 316, MAC 316, MAC 402, ICS 102] 
+9.00am - 10.00am:  [GNS 212, ICS 406, ICS 310, LIS 404, LIS 304, TCS 316, MAC 316, MAC 402, ICS 102] 
+10.00am - 11.00am:  [ICS 106] 
+11.00am - 12.00pm:  [ICS 106] 
+12.00pm - 1.00pm:  [ICS 418] 
+1.00pm - 2.00pm:  [ICS 418] 
+2.00pm - 3.00pm:  [CSC 214, ICS 402, ICS 302, LIS 208, TCS 340, TCS 418, MAC 108, MAC 324, MAC 202] 
+3.00pm - 4.00pm:  [CSC 214, ICS 402, ICS 302, LIS 208, TCS 340, TCS 418, MAC 108, MAC 324, MAC 202] 
+4.00pm - 5.00pm:  [TCS 408, ICS 404, ICS 304, ICS 204, LIS 308, LIS 206, LIS 408, TCS 202, TCS 312] 
+5.00pm - 6.00pm:  [TCS 408, ICS 404, ICS 304, ICS 204, LIS 308, LIS 206, LIS 408, TCS 202, TCS 312] 
+******* Tuesday:
+8.00am - 9.00am:  [POS 116, ICS 408, ICS 308, ICS 202, LIS 402, LIS 302, LIS 202, LIS 106, TCS 102] 
+9.00am - 10.00am:  [POS 116, ICS 408, ICS 308, ICS 202, LIS 402, LIS 302, LIS 202, LIS 106, TCS 102] 
+10.00am - 11.00am:  [CSC 426, TCS 318, MAC 220, MAC 424, MAC 304, CSC 220, CSC 326, ICS 306, ICS 410] 
+11.00am - 12.00pm:  [CSC 426, TCS 318, MAC 220, MAC 424, MAC 304, CSC 220, CSC 326, ICS 306, ICS 410] 
+12.00pm - 1.00pm:  [MAC 426, ICS 412, LIS 204, TCS 204, TCS 304, TCS 414, MAC 104, MAC 312, MAC 222] 
+1.00pm - 2.00pm:  [MAC 426, ICS 412, LIS 204, TCS 204, TCS 304, TCS 414, MAC 104, MAC 312, MAC 222] 
+2.00pm - 3.00pm:  [MAC 428, MAC 236, TCS 314, MAC 306, CSC 112, CSC 222, ICS 104, LIS 406, TCS 404] 
+3.00pm - 4.00pm:  [MAC 428, MAC 236, TCS 314, MAC 306, CSC 112, CSC 222, ICS 104, LIS 406, TCS 404] 
+4.00pm - 5.00pm:  [CSC 434, TCS 306, MAC 322, MAC 114, MAC 404, CSC 212, CSC 314, MAC 224, LIS 102] 
+5.00pm - 6.00pm:  [CSC 434, TCS 306, MAC 322, MAC 114, MAC 404, CSC 212, CSC 314, MAC 224, LIS 102] 
+******* Wednesday:
+8.00am - 9.00am:  [CSC 424, CSC 216, MAC 310, TCS 212, TCS 302, TCS 402, MAC 112, MAC 204, MAC 432] 
+9.00am - 10.00am:  [CSC 424, CSC 216, MAC 310, TCS 212, TCS 302, TCS 402, MAC 112, MAC 204, MAC 432] 
+10.00am - 11.00am:  [CSC 322] 
+11.00am - 12.00pm:  [CSC 322] 
+12.00pm - 1.00pm:  [CSC 224, CSC 316] 
+1.00pm - 2.00pm:  [CSC 224, CSC 316] 
+2.00pm - 3.00pm:  [GNS 112] 
+3.00pm - 4.00pm:  [GNS 112] 
+4.00pm - 5.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+5.00pm - 6.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+******* Thursday:
+8.00am - 9.00am:  [ICS 312] 
+9.00am - 10.00am:  [ICS 312] 
+10.00am - 11.00am:  [CSC 422] 
+11.00am - 12.00pm:  [CSC 422] 
+12.00pm - 1.00pm:  [CSC 320] 
+1.00pm - 2.00pm:  [CSC 320] 
+2.00pm - 3.00pm:  [CSC 420] 
+3.00pm - 4.00pm:  [CSC 420] 
+4.00pm - 5.00pm:  [ICS 422] 
+5.00pm - 6.00pm:  [ICS 422] 
+******* Friday:
+8.00am - 9.00am:  [] 
+9.00am - 10.00am:  [] 
+10.00am - 11.00am:  [MAC 406] 
+11.00am - 12.00pm:  [MAC 406] 
+12.00pm - 1.00pm:  [, , , , ] 
+1.00pm - 2.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+2.00pm - 3.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+3.00pm - 4.00pm:  [, , , , ] 
+4.00pm - 5.00pm:  [CSC 318] 
+5.00pm - 6.00pm:  [CSC 318] 
+***** The cost for Timetable 2: 5325
+
+
+***** Timetable 3 Generation *****
+
+
+******* The New TimeTable for Rain Semester after evaluation ************ 
+******* Monday:
+8.00am - 9.00am:  [CSC 424, MAC 322, MAC 406, CSC 220, CSC 320, ICS 402, ICS 310, LIS 206, LIS 408] 
+9.00am - 10.00am:  [CSC 424, MAC 322, MAC 406, CSC 220, CSC 320, ICS 402, ICS 310, LIS 206, LIS 408] 
+10.00am - 11.00am:  [ICS 106, ICS 302, ICS 204, LIS 404, LIS 304, LIS 202, LIS 106, TCS 204] 
+11.00am - 12.00pm:  [ICS 106, ICS 302, ICS 204, LIS 404, LIS 304, LIS 202, LIS 106, TCS 204] 
+12.00pm - 1.00pm:  [ICS 418, ICS 104] 
+1.00pm - 2.00pm:  [ICS 418, ICS 104] 
+2.00pm - 3.00pm:  [TCS 318, ICS 408, TCS 414, MAC 236, ICS 304, LIS 302, TCS 212, MAC 312, MAC 108] 
+3.00pm - 4.00pm:  [TCS 318, ICS 408, TCS 414, MAC 236, ICS 304, LIS 302, TCS 212, MAC 312, MAC 108] 
+4.00pm - 5.00pm:  [ICS 422] 
+5.00pm - 6.00pm:  [ICS 422] 
+******* Tuesday:
+8.00am - 9.00am:  [POS 116, ICS 306, ICS 410, ICS 202, LIS 402, LIS 308, LIS 208, LIS 102, TCS 202] 
+9.00am - 10.00am:  [POS 116, ICS 306, ICS 410, ICS 202, LIS 402, LIS 308, LIS 208, LIS 102, TCS 202] 
+10.00am - 11.00am:  [CSC 316, ICS 404, TCS 302, TCS 408, MAC 112, MAC 324, MAC 220, MAC 404, CSC 224] 
+11.00am - 12.00pm:  [CSC 316, ICS 404, TCS 302, TCS 408, MAC 112, MAC 324, MAC 220, MAC 404, CSC 224] 
+12.00pm - 1.00pm:  [MAC 426, ICS 406, ICS 312, LIS 204, TCS 304, TCS 402, MAC 202, MAC 104, CSC 222] 
+1.00pm - 2.00pm:  [MAC 426, ICS 406, ICS 312, LIS 204, TCS 304, TCS 402, MAC 202, MAC 104, CSC 222] 
+2.00pm - 3.00pm:  [CSC 318, ICS 412, TCS 340, MAC 114, MAC 402, MAC 222, MAC 306, CSC 216, TCS 404] 
+3.00pm - 4.00pm:  [CSC 318, ICS 412, TCS 340, MAC 114, MAC 402, MAC 222, MAC 306, CSC 216, TCS 404] 
+4.00pm - 5.00pm:  [CSC 420, MAC 304, TCS 316, MAC 224, MAC 432, CSC 112, CSC 212, CSC 322, ICS 308] 
+5.00pm - 6.00pm:  [CSC 420, MAC 304, TCS 316, MAC 224, MAC 432, CSC 112, CSC 212, CSC 322, ICS 308] 
+******* Wednesday:
+8.00am - 9.00am:  [CSC 426, CSC 314, TCS 306, MAC 316, MAC 428, ICS 102, LIS 406, TCS 418, MAC 204] 
+9.00am - 10.00am:  [CSC 426, CSC 314, TCS 306, MAC 316, MAC 428, ICS 102, LIS 406, TCS 418, MAC 204] 
+10.00am - 11.00am:  [GNS 212, TCS 312, MAC 310] 
+11.00am - 12.00pm:  [GNS 212, TCS 312, MAC 310] 
+12.00pm - 1.00pm:  [CSC 422, TCS 314] 
+1.00pm - 2.00pm:  [CSC 422, TCS 314] 
+2.00pm - 3.00pm:  [] 
+3.00pm - 4.00pm:  [] 
+4.00pm - 5.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+5.00pm - 6.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+******* Thursday:
+8.00am - 9.00am:  [] 
+9.00am - 10.00am:  [] 
+10.00am - 11.00am:  [CSC 326] 
+11.00am - 12.00pm:  [CSC 326] 
+12.00pm - 1.00pm:  [GNS 112] 
+1.00pm - 2.00pm:  [GNS 112] 
+2.00pm - 3.00pm:  [CSC 214] 
+3.00pm - 4.00pm:  [CSC 214] 
+4.00pm - 5.00pm:  [TCS 102] 
+5.00pm - 6.00pm:  [TCS 102] 
+******* Friday:
+8.00am - 9.00am:  [] 
+9.00am - 10.00am:  [] 
+10.00am - 11.00am:  [MAC 424] 
+11.00am - 12.00pm:  [MAC 424] 
+12.00pm - 1.00pm:  [, , , , ] 
+1.00pm - 2.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+2.00pm - 3.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+3.00pm - 4.00pm:  [, , , , ] 
+4.00pm - 5.00pm:  [CSC 434] 
+5.00pm - 6.00pm:  [CSC 434] 
+***** The cost for Timetable 3: 6060
+
+
+******* The best Timetable is Timetable 2 for Rain semester: **********
+
+******* The New TimeTable for Rain Semester after evaluation ************ 
+******* Monday:
+8.00am - 9.00am:  [GNS 212, ICS 406, ICS 310, LIS 404, LIS 304, TCS 316, MAC 316, MAC 402, ICS 102] 
+9.00am - 10.00am:  [GNS 212, ICS 406, ICS 310, LIS 404, LIS 304, TCS 316, MAC 316, MAC 402, ICS 102] 
+10.00am - 11.00am:  [ICS 106] 
+11.00am - 12.00pm:  [ICS 106] 
+12.00pm - 1.00pm:  [ICS 418] 
+1.00pm - 2.00pm:  [ICS 418] 
+2.00pm - 3.00pm:  [CSC 214, ICS 402, ICS 302, LIS 208, TCS 340, TCS 418, MAC 108, MAC 324, MAC 202] 
+3.00pm - 4.00pm:  [CSC 214, ICS 402, ICS 302, LIS 208, TCS 340, TCS 418, MAC 108, MAC 324, MAC 202] 
+4.00pm - 5.00pm:  [TCS 408, ICS 404, ICS 304, ICS 204, LIS 308, LIS 206, LIS 408, TCS 202, TCS 312] 
+5.00pm - 6.00pm:  [TCS 408, ICS 404, ICS 304, ICS 204, LIS 308, LIS 206, LIS 408, TCS 202, TCS 312] 
+******* Tuesday:
+8.00am - 9.00am:  [POS 116, ICS 408, ICS 308, ICS 202, LIS 402, LIS 302, LIS 202, LIS 106, TCS 102] 
+9.00am - 10.00am:  [POS 116, ICS 408, ICS 308, ICS 202, LIS 402, LIS 302, LIS 202, LIS 106, TCS 102] 
+10.00am - 11.00am:  [CSC 426, TCS 318, MAC 220, MAC 424, MAC 304, CSC 220, CSC 326, ICS 306, ICS 410] 
+11.00am - 12.00pm:  [CSC 426, TCS 318, MAC 220, MAC 424, MAC 304, CSC 220, CSC 326, ICS 306, ICS 410] 
+12.00pm - 1.00pm:  [MAC 426, ICS 412, LIS 204, TCS 204, TCS 304, TCS 414, MAC 104, MAC 312, MAC 222] 
+1.00pm - 2.00pm:  [MAC 426, ICS 412, LIS 204, TCS 204, TCS 304, TCS 414, MAC 104, MAC 312, MAC 222] 
+2.00pm - 3.00pm:  [MAC 428, MAC 236, TCS 314, MAC 306, CSC 112, CSC 222, ICS 104, LIS 406, TCS 404] 
+3.00pm - 4.00pm:  [MAC 428, MAC 236, TCS 314, MAC 306, CSC 112, CSC 222, ICS 104, LIS 406, TCS 404] 
+4.00pm - 5.00pm:  [CSC 434, TCS 306, MAC 322, MAC 114, MAC 404, CSC 212, CSC 314, MAC 224, LIS 102] 
+5.00pm - 6.00pm:  [CSC 434, TCS 306, MAC 322, MAC 114, MAC 404, CSC 212, CSC 314, MAC 224, LIS 102] 
+******* Wednesday:
+8.00am - 9.00am:  [CSC 424, CSC 216, MAC 310, TCS 212, TCS 302, TCS 402, MAC 112, MAC 204, MAC 432] 
+9.00am - 10.00am:  [CSC 424, CSC 216, MAC 310, TCS 212, TCS 302, TCS 402, MAC 112, MAC 204, MAC 432] 
+10.00am - 11.00am:  [CSC 322] 
+11.00am - 12.00pm:  [CSC 322] 
+12.00pm - 1.00pm:  [CSC 224, CSC 316] 
+1.00pm - 2.00pm:  [CSC 224, CSC 316] 
+2.00pm - 3.00pm:  [GNS 112] 
+3.00pm - 4.00pm:  [GNS 112] 
+4.00pm - 5.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+5.00pm - 6.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+******* Thursday:
+8.00am - 9.00am:  [ICS 312] 
+9.00am - 10.00am:  [ICS 312] 
+10.00am - 11.00am:  [CSC 422] 
+11.00am - 12.00pm:  [CSC 422] 
+12.00pm - 1.00pm:  [CSC 320] 
+1.00pm - 2.00pm:  [CSC 320] 
+2.00pm - 3.00pm:  [CSC 420] 
+3.00pm - 4.00pm:  [CSC 420] 
+4.00pm - 5.00pm:  [ICS 422] 
+5.00pm - 6.00pm:  [ICS 422] 
+******* Friday:
+8.00am - 9.00am:  [] 
+9.00am - 10.00am:  [] 
+10.00am - 11.00am:  [MAC 406] 
+11.00am - 12.00pm:  [MAC 406] 
+12.00pm - 1.00pm:  [, , , , ] 
+1.00pm - 2.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+2.00pm - 3.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+3.00pm - 4.00pm:  [, , , , ] 
+4.00pm - 5.00pm:  [CSC 318] 
+5.00pm - 6.00pm:  [CSC 318] 
+***** The cost for the best Timetable is: 5325
+BUILD SUCCESSFUL (total time: 38 minutes 44 seconds)

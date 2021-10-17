@@ -1,0 +1,252 @@
+run:
+********* Welcome to Automated TimeTable Application  ***********
+
+** This application is developed based on Constraint Programming and Genetic Algorithm  **
+
+***** Population Size = 3:  *****
+
+***** Timetable 1 Generation *****
+
+The Available Class meetings: [ICS 310, LIS 208, LIS 106, ICS 418, TCS 408, CSC 326, LIS 102, ICS 312, CSC 322, TCS 316, LIS 304, CSC 320, TCS 318, MAC 236, LIS 302, TCS 312, TCS 314, TCS 204, TCS 202, MAC 432, CSC 422, CSC 216, GNS 112, CSC 420, CSC 214, LIS 308, CSC 426, CSC 212, TCS 102, TCS 414, ICS 412, CSC 424, LIS 202, ICS 410, LIS 204, TCS 418, LIS 206, CSC 318, ICS 202, ICS 408, ICS 204, CSC 314, ICS 404, CSC 316, CSC 112, ICS 302, ICS 406, MAC 224, LIS 408, TCS 306, MAC 222, LIS 406, TCS 304, TCS 340, TCS 302, MAC 426, LIS 404, MAC 424, LIS 402, ICS 304, CSC 222, MAC 428, TCS 402, ICS 306, ICS 402, CSC 224, MAC 324, TCS 404, ICS 308, MAC 322, CSC 220, TCS 212, MAC 112, MAC 114, POS 116, ICS 106, ICS 104, ICS 102, MAC 310, MAC 312, MAC 220, MAC 316, MAC 204, MAC 202, MAC 406, MAC 104, MAC 402, MAC 108, MAC 404, GNS 212, MAC 306, ICS 422, CSC 434, MAC 304]
+
+The Total number of Class meetings: 94
+
+******* The initial TimeTable for Rain Semester ************ 
+******* Monday:
+8.00am - 9.00am:  [CSC 314, ICS 306, LIS 106, LIS 202, ICS 404] 
+9.00am - 10.00am:  [CSC 314, ICS 306, LIS 106, LIS 202, ICS 404] 
+10.00am - 11.00am:  [MAC 424, ICS 302, CSC 316, MAC 304, ICS 106] 
+11.00am - 12.00pm:  [MAC 424, ICS 302, CSC 316, MAC 304, ICS 106] 
+12.00pm - 1.00pm:  [MAC 306, TCS 102, MAC 428, ICS 308, CSC 220] 
+1.00pm - 2.00pm:  [MAC 306, TCS 102, MAC 428, ICS 308, CSC 220] 
+2.00pm - 3.00pm:  [MAC 112, GNS 212, TCS 212, ICS 204, CSC 214] 
+3.00pm - 4.00pm:  [MAC 112, GNS 212, TCS 212, ICS 204, CSC 214] 
+4.00pm - 5.00pm:  [ICS 310, CSC 426, LIS 402, CSC 224, CSC 420] 
+5.00pm - 6.00pm:  [ICS 310, CSC 426, LIS 402, CSC 224, CSC 420] 
+******* Tuesday:
+8.00am - 9.00am:  [MAC 426, CSC 322, LIS 204, ICS 410, TCS 340] 
+9.00am - 10.00am:  [MAC 426, CSC 322, LIS 204, ICS 410, TCS 340] 
+10.00am - 11.00am:  [ICS 418, ICS 412, ICS 304, TCS 402] 
+11.00am - 12.00pm:  [ICS 418, ICS 412, ICS 304, TCS 402] 
+12.00pm - 1.00pm:  [LIS 408, MAC 310, LIS 404, ICS 202] 
+1.00pm - 2.00pm:  [LIS 408, MAC 310, LIS 404, ICS 202] 
+2.00pm - 3.00pm:  [MAC 104, MAC 406, MAC 220, CSC 424] 
+3.00pm - 4.00pm:  [MAC 104, MAC 406, MAC 220, CSC 424] 
+4.00pm - 5.00pm:  [LIS 406, CSC 222, GNS 112, TCS 306] 
+5.00pm - 6.00pm:  [LIS 406, CSC 222, GNS 112, TCS 306] 
+******* Wednesday:
+8.00am - 9.00am:  [MAC 322, CSC 326, ICS 406, LIS 102] 
+9.00am - 10.00am:  [MAC 322, CSC 326, ICS 406, LIS 102] 
+10.00am - 11.00am:  [MAC 108, MAC 224, CSC 112, MAC 432] 
+11.00am - 12.00pm:  [MAC 108, MAC 224, CSC 112, MAC 432] 
+12.00pm - 1.00pm:  [LIS 304, MAC 316, POS 116, CSC 212] 
+1.00pm - 2.00pm:  [LIS 304, MAC 316, POS 116, CSC 212] 
+2.00pm - 3.00pm:  [ICS 104, TCS 408, ICS 408, CSC 318] 
+3.00pm - 4.00pm:  [ICS 104, TCS 408, ICS 408, CSC 318] 
+4.00pm - 5.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+5.00pm - 6.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+******* Thursday:
+8.00am - 9.00am:  [TCS 302, TCS 318, LIS 206, MAC 222] 
+9.00am - 10.00am:  [TCS 302, TCS 318, LIS 206, MAC 222] 
+10.00am - 11.00am:  [MAC 402, MAC 312, CSC 434, TCS 312] 
+11.00am - 12.00pm:  [MAC 402, MAC 312, CSC 434, TCS 312] 
+12.00pm - 1.00pm:  [TCS 304, LIS 302, MAC 236, CSC 216] 
+1.00pm - 2.00pm:  [TCS 304, LIS 302, MAC 236, CSC 216] 
+2.00pm - 3.00pm:  [MAC 202, MAC 204, CSC 422, TCS 316] 
+3.00pm - 4.00pm:  [MAC 202, MAC 204, CSC 422, TCS 316] 
+4.00pm - 5.00pm:  [LIS 308, LIS 208, CSC 320, ICS 102] 
+5.00pm - 6.00pm:  [LIS 308, LIS 208, CSC 320, ICS 102] 
+******* Friday:
+8.00am - 9.00am:  [ICS 402, ICS 422, TCS 202, MAC 324] 
+9.00am - 10.00am:  [ICS 402, ICS 422, TCS 202, MAC 324] 
+10.00am - 11.00am:  [TCS 418, TCS 314, TCS 414, MAC 114] 
+11.00am - 12.00pm:  [TCS 418, TCS 314, TCS 414, MAC 114] 
+12.00pm - 1.00pm:  [, , , , ] 
+1.00pm - 2.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+2.00pm - 3.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+3.00pm - 4.00pm:  [, , , , ] 
+4.00pm - 5.00pm:  [ICS 312, TCS 404, TCS 204, MAC 404] 
+5.00pm - 6.00pm:  [ICS 312, TCS 404, TCS 204, MAC 404] 
+
+******* The New TimeTable for Rain Semester after evaluation ************ 
+******* Monday:
+8.00am - 9.00am:  [CSC 314 (Type-6), ICS 306 (Type-1), LIS 106 (Type-2), LIS 202 (Type-5), ICS 404 (Type-3)] 
+9.00am - 10.00am:  [CSC 314 (Type-6), ICS 306 (Type-1), LIS 106 (Type-2), LIS 202 (Type-5), ICS 404 (Type-3)] 
+10.00am - 11.00am:  [MAC 424 (Type-1), ICS 302 (Type-2), CSC 316 (Type-6), MAC 304 (Type-5), ICS 106 (Type-7)] 
+11.00am - 12.00pm:  [MAC 424 (Type-1), ICS 302 (Type-2), CSC 316 (Type-6), MAC 304 (Type-5), ICS 106 (Type-7)] 
+12.00pm - 1.00pm:  [MAC 306 (Type-1), TCS 102 (Type-6), MAC 428 (Type-2), ICS 308 (Type-5), CSC 220 (Type-3)] 
+1.00pm - 2.00pm:  [MAC 306 (Type-1), TCS 102 (Type-6), MAC 428 (Type-2), ICS 308 (Type-5), CSC 220 (Type-3)] 
+2.00pm - 3.00pm:  [MAC 112 (Type-1), GNS 212 (Type-9), TCS 212 (Type-2), ICS 204 (Type-5), CSC 214 (Type-3)] 
+3.00pm - 4.00pm:  [MAC 112 (Type-1), GNS 212 (Type-9), TCS 212 (Type-2), ICS 204 (Type-5), CSC 214 (Type-3)] 
+4.00pm - 5.00pm:  [ICS 310 (Type-1), CSC 426 (Type-2), LIS 402 (Type-5), CSC 224 (Type-3), CSC 420 (Type-4)] 
+5.00pm - 6.00pm:  [ICS 310 (Type-1), CSC 426 (Type-2), LIS 402 (Type-5), CSC 224 (Type-3), CSC 420 (Type-4)] 
+******* Tuesday:
+8.00am - 9.00am:  [MAC 426 (Type-1), CSC 322 (Type-6), LIS 204 (Type-2), ICS 410 (Type-5), TCS 340 (Type-3)] 
+9.00am - 10.00am:  [MAC 426 (Type-1), CSC 322 (Type-6), LIS 204 (Type-2), ICS 410 (Type-5), TCS 340 (Type-3)] 
+10.00am - 11.00am:  [ICS 418 (Type-1), ICS 412 (Type-2), ICS 304 (Type-5), TCS 402 (Type-3)] 
+11.00am - 12.00pm:  [ICS 418 (Type-1), ICS 412 (Type-2), ICS 304 (Type-5), TCS 402 (Type-3)] 
+12.00pm - 1.00pm:  [LIS 408 (Type-1), MAC 310 (Type-2), LIS 404 (Type-5), ICS 202 (Type-3)] 
+1.00pm - 2.00pm:  [LIS 408 (Type-1), MAC 310 (Type-2), LIS 404 (Type-5), ICS 202 (Type-3)] 
+2.00pm - 3.00pm:  [MAC 104 (Type-6), MAC 406 (Type-1), MAC 220 (Type-2), CSC 424 (Type-5)] 
+3.00pm - 4.00pm:  [MAC 104 (Type-6), MAC 406 (Type-1), MAC 220 (Type-2), CSC 424 (Type-5)] 
+4.00pm - 5.00pm:  [LIS 406 (Type-1), CSC 222 (Type-3), GNS 112 (Type-9), TCS 306 (Type-2)] 
+5.00pm - 6.00pm:  [LIS 406 (Type-1), CSC 222 (Type-3), GNS 112 (Type-9), TCS 306 (Type-2)] 
+******* Wednesday:
+8.00am - 9.00am:  [MAC 322 (Type-1), CSC 326 (Type-2), ICS 406 (Type-5), LIS 102 (Type-3)] 
+9.00am - 10.00am:  [MAC 322 (Type-1), CSC 326 (Type-2), ICS 406 (Type-5), LIS 102 (Type-3)] 
+10.00am - 11.00am:  [MAC 108 (Type-1), MAC 224 (Type-2), CSC 112 (Type-9), MAC 432 (Type-5)] 
+11.00am - 12.00pm:  [MAC 108 (Type-1), MAC 224 (Type-2), CSC 112 (Type-9), MAC 432 (Type-5)] 
+12.00pm - 1.00pm:  [LIS 304 (Type-1), MAC 316 (Type-2), POS 116 (Type-9), CSC 212 (Type-1)] 
+1.00pm - 2.00pm:  [LIS 304 (Type-1), MAC 316 (Type-2), POS 116 (Type-9), CSC 212 (Type-1)] 
+2.00pm - 3.00pm:  [ICS 104 (Type-1), TCS 408 (Type-2), ICS 408 (Type-5), CSC 318 (Type-3)] 
+3.00pm - 4.00pm:  [ICS 104 (Type-1), TCS 408 (Type-2), ICS 408 (Type-5), CSC 318 (Type-3)] 
+4.00pm - 5.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+5.00pm - 6.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+******* Thursday:
+8.00am - 9.00am:  [TCS 302 (Type-3), TCS 318 (Type-1), LIS 206 (Type-2), MAC 222 (Type-5)] 
+9.00am - 10.00am:  [TCS 302 (Type-3), TCS 318 (Type-1), LIS 206 (Type-2), MAC 222 (Type-5)] 
+10.00am - 11.00am:  [MAC 402 (Type-1), MAC 312 (Type-2), CSC 434 (Type-5), TCS 312 (Type-3)] 
+11.00am - 12.00pm:  [MAC 402 (Type-1), MAC 312 (Type-2), CSC 434 (Type-5), TCS 312 (Type-3)] 
+12.00pm - 1.00pm:  [TCS 304 (Type-1), LIS 302 (Type-2), MAC 236 (Type-5), CSC 216 (Type-3)] 
+1.00pm - 2.00pm:  [TCS 304 (Type-1), LIS 302 (Type-2), MAC 236 (Type-5), CSC 216 (Type-3)] 
+2.00pm - 3.00pm:  [MAC 202 (Type-1), MAC 204 (Type-2), CSC 422 (Type-5), TCS 316 (Type-3)] 
+3.00pm - 4.00pm:  [MAC 202 (Type-1), MAC 204 (Type-2), CSC 422 (Type-5), TCS 316 (Type-3)] 
+4.00pm - 5.00pm:  [LIS 308 (Type-1), LIS 208 (Type-2), CSC 320 (Type-6), ICS 102 (Type-7)] 
+5.00pm - 6.00pm:  [LIS 308 (Type-1), LIS 208 (Type-2), CSC 320 (Type-6), ICS 102 (Type-7)] 
+******* Friday:
+8.00am - 9.00am:  [ICS 402 (Type-1), ICS 422 (Type-2), TCS 202 (Type-6), MAC 324 (Type-5)] 
+9.00am - 10.00am:  [ICS 402 (Type-1), ICS 422 (Type-2), TCS 202 (Type-6), MAC 324 (Type-5)] 
+10.00am - 11.00am:  [TCS 418 (Type-1), TCS 314 (Type-2), TCS 414 (Type-5), MAC 114 (Type-3)] 
+11.00am - 12.00pm:  [TCS 418 (Type-1), TCS 314 (Type-2), TCS 414 (Type-5), MAC 114 (Type-3)] 
+12.00pm - 1.00pm:  [, , , , ] 
+1.00pm - 2.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+2.00pm - 3.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+3.00pm - 4.00pm:  [, , , , ] 
+4.00pm - 5.00pm:  [ICS 312 (Type-6), TCS 404 (Type-1), TCS 204 (Type-2), MAC 404 (Type-5)] 
+5.00pm - 6.00pm:  [ICS 312 (Type-6), TCS 404 (Type-1), TCS 204 (Type-2), MAC 404 (Type-5)] 
+***** The cost for Timetable 1: 0
+
+
+***** Timetable 2 Generation *****
+
+
+******* The New TimeTable for Rain Semester after evaluation ************ 
+******* Monday:
+8.00am - 9.00am:  [ICS 204 (Type-1), TCS 212 (Type-2), CSC 420 (Type-5), ICS 418 (Type-3), ICS 306 (Type-4)] 
+9.00am - 10.00am:  [ICS 204 (Type-1), TCS 212 (Type-2), CSC 420 (Type-5), ICS 418 (Type-3), ICS 306 (Type-4)] 
+10.00am - 11.00am:  [TCS 402 (Type-1), MAC 306 (Type-2), MAC 236 (Type-5), MAC 428 (Type-3), TCS 304 (Type-4)] 
+11.00am - 12.00pm:  [TCS 402 (Type-1), MAC 306 (Type-2), MAC 236 (Type-5), MAC 428 (Type-3), TCS 304 (Type-4)] 
+12.00pm - 1.00pm:  [MAC 114 (Type-1), MAC 402 (Type-2), LIS 404 (Type-5), ICS 410 (Type-3), CSC 214 (Type-4)] 
+1.00pm - 2.00pm:  [MAC 114 (Type-1), MAC 402 (Type-2), LIS 404 (Type-5), ICS 410 (Type-3), CSC 214 (Type-4)] 
+2.00pm - 3.00pm:  [CSC 318 (Type-1), MAC 104 (Type-6), ICS 422 (Type-2), ICS 406 (Type-5), ICS 308 (Type-3)] 
+3.00pm - 4.00pm:  [CSC 318 (Type-1), MAC 104 (Type-6), ICS 422 (Type-2), ICS 406 (Type-5), ICS 308 (Type-3)] 
+4.00pm - 5.00pm:  [CSC 224 (Type-3), MAC 322 (Type-1), MAC 304 (Type-2), TCS 404 (Type-5), MAC 404 (Type-4)] 
+5.00pm - 6.00pm:  [CSC 224 (Type-3), MAC 322 (Type-1), MAC 304 (Type-2), TCS 404 (Type-5), MAC 404 (Type-4)] 
+******* Tuesday:
+8.00am - 9.00am:  [ICS 104 (Type-1), CSC 222 (Type-3), ICS 412 (Type-2), ICS 102 (Type-6), LIS 408 (Type-5)] 
+9.00am - 10.00am:  [ICS 104 (Type-1), CSC 222 (Type-3), ICS 412 (Type-2), ICS 102 (Type-6), LIS 408 (Type-5)] 
+10.00am - 11.00am:  [MAC 324 (Type-1), POS 116 (Type-9), CSC 320 (Type-6), LIS 202 (Type-2)] 
+11.00am - 12.00pm:  [MAC 324 (Type-1), POS 116 (Type-9), CSC 320 (Type-6), LIS 202 (Type-2)] 
+12.00pm - 1.00pm:  [CSC 212 (Type-9), ICS 302 (Type-1), TCS 408 (Type-2), CSC 112 (Type-1)] 
+1.00pm - 2.00pm:  [CSC 212 (Type-9), ICS 302 (Type-1), TCS 408 (Type-2), CSC 112 (Type-1)] 
+2.00pm - 3.00pm:  [ICS 310 (Type-1), TCS 302 (Type-3), ICS 202 (Type-2), MAC 312 (Type-5)] 
+3.00pm - 4.00pm:  [ICS 310 (Type-1), TCS 302 (Type-3), ICS 202 (Type-2), MAC 312 (Type-5)] 
+4.00pm - 5.00pm:  [MAC 426 (Type-1), MAC 310 (Type-2), LIS 304 (Type-5), TCS 204 (Type-3)] 
+5.00pm - 6.00pm:  [MAC 426 (Type-1), MAC 310 (Type-2), LIS 304 (Type-5), TCS 204 (Type-3)] 
+******* Wednesday:
+8.00am - 9.00am:  [TCS 102 (Type-6), CSC 434 (Type-1), ICS 402 (Type-2), TCS 318 (Type-5)] 
+9.00am - 10.00am:  [TCS 102 (Type-6), CSC 434 (Type-1), ICS 402 (Type-2), TCS 318 (Type-5)] 
+10.00am - 11.00am:  [CSC 322 (Type-6), TCS 316 (Type-1), ICS 304 (Type-2), TCS 418 (Type-5)] 
+11.00am - 12.00pm:  [CSC 322 (Type-6), TCS 316 (Type-1), ICS 304 (Type-2), TCS 418 (Type-5)] 
+12.00pm - 1.00pm:  [LIS 302 (Type-1), TCS 414 (Type-2), MAC 220 (Type-5), LIS 106 (Type-3)] 
+1.00pm - 2.00pm:  [LIS 302 (Type-1), TCS 414 (Type-2), MAC 220 (Type-5), LIS 106 (Type-3)] 
+2.00pm - 3.00pm:  [MAC 222 (Type-1), MAC 108 (Type-2), MAC 224 (Type-5), LIS 406 (Type-3)] 
+3.00pm - 4.00pm:  [MAC 222 (Type-1), MAC 108 (Type-2), MAC 224 (Type-5), LIS 406 (Type-3)] 
+4.00pm - 5.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+5.00pm - 6.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+******* Thursday:
+8.00am - 9.00am:  [CSC 216 (Type-1), CSC 426 (Type-2), LIS 204 (Type-5), TCS 314 (Type-3)] 
+9.00am - 10.00am:  [CSC 216 (Type-1), CSC 426 (Type-2), LIS 204 (Type-5), TCS 314 (Type-3)] 
+10.00am - 11.00am:  [CSC 314 (Type-6), MAC 406 (Type-1), TCS 202 (Type-7), LIS 206 (Type-2)] 
+11.00am - 12.00pm:  [CSC 314 (Type-6), MAC 406 (Type-1), TCS 202 (Type-7), LIS 206 (Type-2)] 
+12.00pm - 1.00pm:  [CSC 422 (Type-1), TCS 306 (Type-2), CSC 424 (Type-5), GNS 112 (Type-9)] 
+1.00pm - 2.00pm:  [CSC 422 (Type-1), TCS 306 (Type-2), CSC 424 (Type-5), GNS 112 (Type-9)] 
+2.00pm - 3.00pm:  [ICS 408 (Type-1), MAC 316 (Type-2), LIS 402 (Type-5), CSC 326 (Type-3)] 
+3.00pm - 4.00pm:  [ICS 408 (Type-1), MAC 316 (Type-2), LIS 402 (Type-5), CSC 326 (Type-3)] 
+4.00pm - 5.00pm:  [TCS 312 (Type-1), MAC 424 (Type-2), TCS 340 (Type-5), CSC 220 (Type-3)] 
+5.00pm - 6.00pm:  [TCS 312 (Type-1), MAC 424 (Type-2), TCS 340 (Type-5), CSC 220 (Type-3)] 
+******* Friday:
+8.00am - 9.00am:  [MAC 432 (Type-1), CSC 316 (Type-6), MAC 112 (Type-2), LIS 102 (Type-5)] 
+9.00am - 10.00am:  [MAC 432 (Type-1), CSC 316 (Type-6), MAC 112 (Type-2), LIS 102 (Type-5)] 
+10.00am - 11.00am:  [GNS 212 (Type-9), MAC 204 (Type-1), LIS 208 (Type-2), ICS 106 (Type-6)] 
+11.00am - 12.00pm:  [GNS 212 (Type-9), MAC 204 (Type-1), LIS 208 (Type-2), ICS 106 (Type-6)] 
+12.00pm - 1.00pm:  [, , , , ] 
+1.00pm - 2.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+2.00pm - 3.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+3.00pm - 4.00pm:  [, , , , ] 
+4.00pm - 5.00pm:  [LIS 308 (Type-1), ICS 404 (Type-2), MAC 202 (Type-5), ICS 312 (Type-6)] 
+5.00pm - 6.00pm:  [LIS 308 (Type-1), ICS 404 (Type-2), MAC 202 (Type-5), ICS 312 (Type-6)] 
+***** The cost for Timetable 2: 0
+
+
+***** Timetable 3 Generation *****
+
+
+******* The New TimeTable for Rain Semester after evaluation ************ 
+******* Monday:
+8.00am - 9.00am:  [LIS 204 (Type-1), MAC 428 (Type-2), MAC 236 (Type-5), MAC 404 (Type-3), TCS 408 (Type-4)] 
+9.00am - 10.00am:  [LIS 204 (Type-1), MAC 428 (Type-2), MAC 236 (Type-5), MAC 404 (Type-3), TCS 408 (Type-4)] 
+10.00am - 11.00am:  [CSC 322 (Type-6), TCS 212 (Type-1), TCS 340 (Type-2), TCS 312 (Type-5), MAC 402 (Type-3)] 
+11.00am - 12.00pm:  [CSC 322 (Type-6), TCS 212 (Type-1), TCS 340 (Type-2), TCS 312 (Type-5), MAC 402 (Type-3)] 
+12.00pm - 1.00pm:  [TCS 102 (Type-6), GNS 112 (Type-9), ICS 312 (Type-7), LIS 202 (Type-1), LIS 406 (Type-2)] 
+1.00pm - 2.00pm:  [TCS 102 (Type-6), GNS 112 (Type-9), ICS 312 (Type-7), LIS 202 (Type-1), LIS 406 (Type-2)] 
+2.00pm - 3.00pm:  [ICS 408 (Type-1), CSC 422 (Type-2), MAC 432 (Type-5), MAC 112 (Type-3), CSC 420 (Type-4)] 
+3.00pm - 4.00pm:  [ICS 408 (Type-1), CSC 422 (Type-2), MAC 432 (Type-5), MAC 112 (Type-3), CSC 420 (Type-4)] 
+4.00pm - 5.00pm:  [LIS 102 (Type-1), ICS 204 (Type-2), CSC 426 (Type-5), MAC 306 (Type-3), ICS 410 (Type-4)] 
+5.00pm - 6.00pm:  [LIS 102 (Type-1), ICS 204 (Type-2), CSC 426 (Type-5), MAC 306 (Type-3), ICS 410 (Type-4)] 
+******* Tuesday:
+8.00am - 9.00am:  [LIS 402 (Type-1), ICS 306 (Type-2), ICS 402 (Type-5), MAC 312 (Type-3), MAC 204 (Type-4)] 
+9.00am - 10.00am:  [LIS 402 (Type-1), ICS 306 (Type-2), ICS 402 (Type-5), MAC 312 (Type-3), MAC 204 (Type-4)] 
+10.00am - 11.00am:  [ICS 104 (Type-1), TCS 304 (Type-2), ICS 310 (Type-5), ICS 302 (Type-3)] 
+11.00am - 12.00pm:  [ICS 104 (Type-1), TCS 304 (Type-2), ICS 310 (Type-5), ICS 302 (Type-3)] 
+12.00pm - 1.00pm:  [TCS 318 (Type-1), ICS 106 (Type-6), CSC 216 (Type-2), ICS 418 (Type-5)] 
+1.00pm - 2.00pm:  [TCS 318 (Type-1), ICS 106 (Type-6), CSC 216 (Type-2), ICS 418 (Type-5)] 
+2.00pm - 3.00pm:  [POS 116 (Type-9), CSC 326 (Type-1), TCS 316 (Type-2), CSC 214 (Type-3)] 
+3.00pm - 4.00pm:  [POS 116 (Type-9), CSC 326 (Type-1), TCS 316 (Type-2), CSC 214 (Type-3)] 
+4.00pm - 5.00pm:  [TCS 418 (Type-1), MAC 310 (Type-2), CSC 424 (Type-5), ICS 308 (Type-3)] 
+5.00pm - 6.00pm:  [TCS 418 (Type-1), MAC 310 (Type-2), CSC 424 (Type-5), ICS 308 (Type-3)] 
+******* Wednesday:
+8.00am - 9.00am:  [TCS 202 (Type-6), MAC 220 (Type-1), LIS 408 (Type-2), MAC 104 (Type-7)] 
+9.00am - 10.00am:  [TCS 202 (Type-6), MAC 220 (Type-1), LIS 408 (Type-2), MAC 104 (Type-7)] 
+10.00am - 11.00am:  [TCS 404 (Type-1), LIS 308 (Type-2), LIS 304 (Type-5), MAC 316 (Type-3)] 
+11.00am - 12.00pm:  [TCS 404 (Type-1), LIS 308 (Type-2), LIS 304 (Type-5), MAC 316 (Type-3)] 
+12.00pm - 1.00pm:  [MAC 222 (Type-1), CSC 316 (Type-6), MAC 406 (Type-2), LIS 206 (Type-5)] 
+1.00pm - 2.00pm:  [MAC 222 (Type-1), CSC 316 (Type-6), MAC 406 (Type-2), LIS 206 (Type-5)] 
+2.00pm - 3.00pm:  [MAC 224 (Type-1), MAC 114 (Type-2), CSC 318 (Type-5), MAC 322 (Type-3)] 
+3.00pm - 4.00pm:  [MAC 224 (Type-1), MAC 114 (Type-2), CSC 318 (Type-5), MAC 322 (Type-3)] 
+4.00pm - 5.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+5.00pm - 6.00pm:  [GAMES, GAMES, GAMES, GAMES, GAMES] 
+******* Thursday:
+8.00am - 9.00am:  [ICS 422 (Type-1), TCS 204 (Type-2), LIS 302 (Type-5), LIS 208 (Type-3)] 
+9.00am - 10.00am:  [ICS 422 (Type-1), TCS 204 (Type-2), LIS 302 (Type-5), LIS 208 (Type-3)] 
+10.00am - 11.00am:  [CSC 212 (Type-9), ICS 202 (Type-1), ICS 304 (Type-2), TCS 402 (Type-5)] 
+11.00am - 12.00pm:  [CSC 212 (Type-9), ICS 202 (Type-1), ICS 304 (Type-2), TCS 402 (Type-5)] 
+12.00pm - 1.00pm:  [CSC 224 (Type-3), MAC 108 (Type-1), ICS 404 (Type-2), GNS 212 (Type-9)] 
+1.00pm - 2.00pm:  [CSC 224 (Type-3), MAC 108 (Type-1), ICS 404 (Type-2), GNS 212 (Type-9)] 
+2.00pm - 3.00pm:  [LIS 404 (Type-1), MAC 202 (Type-2), MAC 426 (Type-5), ICS 406 (Type-3)] 
+3.00pm - 4.00pm:  [LIS 404 (Type-1), MAC 202 (Type-2), MAC 426 (Type-5), ICS 406 (Type-3)] 
+4.00pm - 5.00pm:  [LIS 106 (Type-1), CSC 314 (Type-6), CSC 222 (Type-3), ICS 102 (Type-7)] 
+5.00pm - 6.00pm:  [LIS 106 (Type-1), CSC 314 (Type-6), CSC 222 (Type-3), ICS 102 (Type-7)] 
+******* Friday:
+8.00am - 9.00am:  [MAC 304 (Type-1), CSC 320 (Type-6), TCS 414 (Type-2), CSC 220 (Type-5)] 
+9.00am - 10.00am:  [MAC 304 (Type-1), CSC 320 (Type-6), TCS 414 (Type-2), CSC 220 (Type-5)] 
+10.00am - 11.00am:  [MAC 324 (Type-1), CSC 112 (Type-9), ICS 412 (Type-2), TCS 314 (Type-5)] 
+11.00am - 12.00pm:  [MAC 324 (Type-1), CSC 112 (Type-9), ICS 412 (Type-2), TCS 314 (Type-5)] 
+12.00pm - 1.00pm:  [, , , , ] 
+1.00pm - 2.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+2.00pm - 3.00pm:  [Jumat Service, Jumat Service, Jumat Service, Jumat Service, Jumat Service] 
+3.00pm - 4.00pm:  [, , , , ] 
+4.00pm - 5.00pm:  [TCS 306 (Type-1), TCS 302 (Type-3), MAC 424 (Type-2), CSC 434 (Type-5)] 
+5.00pm - 6.00pm:  [TCS 306 (Type-1), TCS 302 (Type-3), MAC 424 (Type-2), CSC 434 (Type-5)] 
+***** The cost for Timetable 3: 0
+BUILD SUCCESSFUL (total time: 4 seconds)
